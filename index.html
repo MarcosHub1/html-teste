@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Rick and Morty API</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>exemplo de html para o github</h1>
+  <div class="container">
+    <h1>Personagens Rick & Morty</h1>
+    <div id="cards-container" class="cards-container"></div>
+    <div class="pagination">
+      <button id="prev-btn" disabled>Anterior</button>
+      <span id="page-info">Página 1</span>
+      <button id="next-btn" disabled>Próxima</button>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
 </body>
 </html>
